@@ -1,1 +1,2 @@
 # Kooiman_SoC_Project
+This project requires an analog to digital converter, a microphone, various resistors, capacitors, and LEDs. The microphone will be connected to a power source and produce a signal to represent what sound it detects. That signal will be accordingly filtered and input to the analog to digital converter. The ADC will digitize the signal which will be an input to the SoC. The SoC will then determine the amplitude of the sound being heard and light a certain number of the 16 LEDs on the Nexys4 DDR board to represent how loud the detected sound is. 
